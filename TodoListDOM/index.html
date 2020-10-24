@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo list</title>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shorcut icon" href="pencil_icon.png">
+</head>
+<body>
+	<form action="server.com" name="my_todo_list">
+	  <input name="todoItem" value="" placeholder="Type here what to add" class="head">
+	  <select id="dropDown" class="head">
+	  	<option>Important</option>
+	  	<option>Not Important</option>
+	  </select>
+	  <button class="head">Add to your list</button>
+	</form>
+	<div>
+		<h2>Important things that must be done today!</h2>
+		<ul id="important">
+		</ul>
+		<h3>Not so important things: (but please don't ignore them!)</h3>
+		<ul id="notImportant">
+		</ul>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

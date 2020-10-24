@@ -1,0 +1,36 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Indie Flower', cursive, sans-serif;
+}
+
+.head {
+	font-size: 20px;
+}
+.li_strike {
+	text-decoration: line-through;
+}
+li {
+	font-size: 20px;
+}
+
+button {
+	font-family: 'Indie Flower', cursive, sans-serif;
+	font-weight: bold;
+}
+
+#dropDown {
+	font-family: 'Indie Flower', cursive, sans-serif;
+	font-weight: bold;
+	border-style: none;
+}
+
+input {
+	font-family: 'Indie Flower', cursive, sans-serif;
+	padding-right: 20px;
+	border-style: none;
+	width: 300px;
+}

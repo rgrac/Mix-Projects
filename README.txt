@@ -1,0 +1,1 @@
+A mix of projects developed during my learning.
